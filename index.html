@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BEKK-theme for remark</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script src="http://cloud.github.com/downloads/gnab/remark/remark-0.3.6.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://github.com/downloads/kjbekkelund/remark-bekk/bekk-0.0.3.js" type="text/javascript"></script>
+    <link href="https://github.com/downloads/kjbekkelund/remark-bekk/bekk-0.0.3.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="source">
+
+.front-page
+
+# Efficient JavaScript development in a Java world
+
+## Lightning talk 
+
+Take a look at [js-java-setup](https://github.com/kjbekkelund/js-java-setup)
+
+Hans Magnus Inderbrg
+
+28/11/2012
+
+---
+
+.middle.center
+# Why do we need this?
+
+---
+
+# The Toolchain
+
+* [Require.js](http://requirejs.org/) for loading modules
+* [r.js](http://requirejs.org/docs/optimization.html) for minified
+  JavaScript in production
+* [Backbone.js](http://backbonejs.org) for models, views and routers
+* [Hogan.js](http://twitter.github.com/hogan.js/) for
+  [Mustache](http://mustache.github.com/) templates that can be
+  precompiled to JavaScript in production
+* [Jasmine](http://pivotal.github.com/jasmine/) for tests
+* [Sinon](http://sinonjs.org) for test spies, stubs and mocks
+* [Saga](http://timurstrekalov.github.com/saga/) for code coverage
+* [JSHint](http://www.jshint.com/) to detect problems and errors in the
+  JavaScript code
+
+---
+
+.middle.center
+# Test Coverage
+## Saga
+
+---
+
+.middle.center
+# Tests
+## Jasmine with Require.js
+
+---
+
+.middle.center
+# Minify
+## requirejs-maven-plugin with r.js. 
+## To minimize the footprint it uses Almond instead of Require.js when minified.
+
+---
+
+.middle.center
+# Index file and cache busting
+## Includes a simple way of handling cache busting, this can be done in many different ways.
+
+---
+
+.middle.center
+# Templates
+## Examples usage with both Hogan and Handlebars
+
+---
+
+.middle.center
+# Backbone
+## A set of components for solving requal Backbone.js problems
+
+---
+
+.middle.center
+# This is NOT a solution, but a better starting point
+
+    </textarea>
+    <div id="slideshow"></div>
+  </body>
+</html>
